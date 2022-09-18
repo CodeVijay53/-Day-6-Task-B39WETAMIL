@@ -1,0 +1,240 @@
+1.Fix html
+change the double quotes to single quotes. Please refer below code
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        alert('I’m JavaScript!');
+    </script>
+    Whats the error in this ?
+</body>
+</html>
+*---------------------------------------------*
+2.Find the culprit and invoke the alert
+
+Change the name of the file in the script tag.
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”scripts.js”></script>
+</body>
+</html>
+*---------------------------------------------*
+3. Explain the below how it works
+
+It creates an alert box in the browser saying I'm JavaScript! followed by clicking ok
+Hello
+Wor
+ ld
+6
+*---------------------------------------------*
+4. Fix the below to alert
+
+Add a space seperator in between the Guvi and geek in concatention.Please see the below Javascript
+let admin = 9,
+  fname = 10.5;
+fname = "Guvi";
+lname = "geek";
+admin = fname + " " + lname;
+alert(admin); // "Guvi geek"
+*---------------------------------------------*
+5. Fix the below to alert
+
+Add a space seperator in between the Guvi and geek in concatention.Please see the below Javascript
+let fname = 10.5;
+fname = "Guvi";
+lname = "geek";
+let name = fname + " " + lname;
+alert(`hello ${name}`);
+*---------------------------------------------*
+
+6. Fix the below to alert sum of two numbers
+
+Please see the below code.
+let a = prompt("First number?");
+let b = prompt("Second number?");
+sum = parseInt(a) + parseInt(b);
+alert(sum);
+*---------------------------------------------*
+
+7. Fix the below to alert sum of two numbers
+
+Please see the below code.
+let a = prompt("First number?");
+let b = prompt("Second number?");
+sum = parseInt(a) + parseInt(b);
+alert(sum);
+*---------------------------------------------*
+
+8. If you run the below scritpt you will get “Code is Blasted” Explain Why the Code is blasted and how to diffuse it and get “Diffused”.
+
+If a=true then the result will be Code is Blasted.
+if a= false then the result will be Diffused.
+*---------------------------------------------*
+
+9.How to get the success in console.
+
+Making the string to integer with Parseint method.
+let b = prompt("Enter a number?");
+a = parseInt(b);
+//Don't modify any code below this
+if (a) {
+  console.log("OMG it works for any number inc 0");
+} else {
+  console.log("Success");
+}
+*---------------------------------------------*
+
+10.How to get the correct score in console.
+
+Add a parseInt method.
+let value = parseInt(prompt("How many runs you scored in this ball"));
+if (value === 4) {
+  console.log("You hit a Four");
+} else if (value === 6) {
+  console.log("You hit a Six");
+} else {
+  console.log("I couldn't figure out");
+}
+*---------------------------------------------*
+
+11. Fix the code to welcome the Employee
+
+const login = prompt("say your position");
+let message;
+if (login === "Employee" || login === "Director") {
+  message = "Greetings";
+} else {
+  message = "No login";
+}
+console.log(message);
+*---------------------------------------------*
+
+12.Fix the code to welcome the boss
+
+Remove the let 
+let message;
+if (null || 2 || undefined) {
+  message = "welcome boss";
+} else {
+  message = "Go away";
+}
+console.log(message);
+*---------------------------------------------*
+
+
+13.let message;
+
+let message;
+let lock = undefined;
+//Dont change any code below this
+if (null || lock || undefined) {
+  message = "Go away";
+} else {
+  message = "welcome";
+}
+console.log(message);
+*---------------------------------------------*
+
+14.Fix the code to welcome the boss
+
+let message;
+let lock = undefined;
+//Dont change any code below this
+if ((lock && " ") || undefined) {
+  message = "Go away";
+} else {
+  message = "welcome";
+}
+console.log(message);
+*---------------------------------------------*
+
+15. Change the code to print
+
+let i = 3;
+while (i) {
+  console.log( i);
+  i--;
+}
+*---------------------------------------------*
+
+16. Change the code to print 1 to 10 in 4 lines
+
+let num = 1
+var s= " ";
+for (num; num<11; num++){
+    s+=num+" ";
+};
+console.log(s)
+console.log(s)
+console.log(s)
+console.log(s)
+*---------------------------------------------*
+
+17. Change the code to print even numbers
+
+for (let num = 2; num <= 20; num += 2) {
+  console.log(num)
+}
+*---------------------------------------------*
+
+18. Change the code to print all the gifts
+
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < 3; i++) {
+  console.log(`Wrapped ${gifts[i]} and added a bow!`);
+}
+
+*---------------------------------------------*
+
+19.Fix the code to disarm the bomb.
+
+let countdown = 5;
+while (countdown > 0) {
+  countdown--;
+  if (countdown == 0) {
+    console.log("bomb triggered");
+  }else{
+      console.log("bomb diffused");
+      break;
+  }
+}
+
+*---------------------------------------------*
+
+20. Whats the msg printed and why?
+Here the the find if loop has been executed and result has been produced as hi.
+var lemein = "0";
+var lemeout = 0;
+var msg = " ";
+if (lemein) {
+  msg += "hi";
+}
+if (lemeout) {
+  msg += "Hello";
+}
+console.log(msg);
+
+*---------------------------------------------*
+
+21. Whats the msg printed and why? Guess you answer before running it.
+The result will be hi as a string.
+
+var lemein = “0”;
+var lemeout = 0;
+var msg = “”;
+if (lemein) {
+ msg += “hi”;
+ }
+if (lemeout) {
+ msg += ‘Hello’;
+}
+console.log(msg);
+*---------------------------------------------*
+
+
+
+
+
+
+
