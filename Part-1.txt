@@ -1,5 +1,5 @@
 1.Fix html
-change the double quotes to single quotes. Please refer below code
+changing the double quotes to single quotes. Please refer below code solve the issue
 <!DOCTYPE html>
 <html>
 <body>
